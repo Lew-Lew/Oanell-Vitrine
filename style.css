@@ -102,7 +102,7 @@ body {
 }
 
 .formules {
-  background-image: url(/img/photo5.jpeg);
+  background-image: url(img/photo5.jpeg);
   background-size: 30em;
   background-repeat: no-repeat;
   background-position: right;
@@ -132,7 +132,7 @@ body {
 /* HERO */
 
 #heroImg {
-  background-image: url(/img/photo2.jpeg);
+  background-image: url(img/photo2.jpeg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
