@@ -11,6 +11,12 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
@@ -26,27 +32,91 @@
         </div>
 
         <div class="navbar-end">
-          <a class="navbar-item"> À propos </a>
-          <a class="navbar-item"> Réservation </a>
-          <a class="navbar-item" id="formules">Formules & Prix </a>
+          <a href="#sectionApropos" class="navbar-item"> À propos </a>
+          <a href="#sectionFormule1" class="navbar-item"> Nos Formules </a>
+          <a href="#sectionContact" class="navbar-item">Contact </a>
         </div>
       </nav>
+
+      <div class="container" id="divTitreApropos">
+        <h2 class="subtitle" id="subtitleApropos">À Propos</h2>
+      </div>
     </section>
 
     <section class="section" id="sectionApropos">
-      <div>
-        <img src="img/pexels-photo-3270230.jpeg" alt="" id="imgOa" />
+      <div class="columns">
+        <div class="column is-half">
+          <img src="img/pexels-photo-3270230.jpeg" alt="" id="imgOa" />
+        </div>
+        <div class="column is-half" id="aPropos">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Id natus,
+            quos blanditiis maiores, rem nobis iure veniam quod debitis hic
+            corrupti amet sunt nisi quidem temporibus sit voluptate iusto
+            expedita? Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Hic distinctio vero eaque velit? Dolorem, mollitia repellat
+            laboriosam quo totam officiis omnis saepe necessitatibus, iusto
+            suscipit voluptatum, incidunt neque libero quas! Lorem ipsum dolor
+            sit amet consectetur, adipisicing elit. Nemo dolores ab deleniti
+            minima sit tenetur natus quidem distinctio est atque. Lorem ipsum
+            dolor sit amet consectetur adipisicing elit. Assumenda omnis
+            accusantium suscipit nisi asperiores. Maiores porro molestias illo
+            id adipisci.
+          </p>
+        </div>
       </div>
-      <div>
-        <h2 class="subtitle">À PROPOS</h2>
+    </section>
+
+    <div class="container titleSection">
+      <h2 id="titleFormules">Nos Formules</h2>
+    </div>
+
+    <div class="container" id="blockBlanc">
+      <section class="section formules" id="sectionFormule1">
+        <div class="container divFormules" id="divFormule1">
+          <h4 class="titleFormules12">Formule n°1</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nemo
+            animi blanditiis sint, perspiciatis sunt consequatur quae!
+            Temporibus, ratione maiores.
+          </p>
+        </div>
+      </section>
+
+      <div class="blockBlancEntreSections">
+        <p>à cacher</p>
       </div>
-      <div>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id natus,
-          quos blanditiis maiores, rem nobis iure veniam quod debitis hic
-          corrupti amet sunt nisi quidem temporibus sit voluptate iusto
-          expedita?
-        </p>
+
+      <section class="section formules">
+        <div class="container divFormules">
+          <h4 class="titleFormules12">Formule n°2</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime nemo
+            animi blanditiis sint, perspiciatis sunt consequatur quae!
+            Temporibus, ratione maiores.
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <section class="hero" id="heroImg"></section>
+
+    <div class="container" id="divTitleSectionContact">
+      <h2 id="titleContact">Contact</h2>
+    </div>
+
+    <section class="section" id="sectionContact">
+      <div class="columns" id="columnsContact">
+        <div class="column is-half columnContact" id="divColumnTelMail">
+          <p>06.26.66.78.43 <i class="fas fa-phone-square-alt"></i></p>
+          <br />
+          <p>ofejifeioz@gmail.com <i class="fas fa-envelope-square"></i></p>
+        </div>
+        <div class="column is-half columnContact">
+          <p><i class="fab fa-facebook-square"></i> Facebook</p>
+          <br />
+          <p><i class="fab fa-instagram-square"></i> Instagram</p>
+        </div>
       </div>
     </section>
   </body>
