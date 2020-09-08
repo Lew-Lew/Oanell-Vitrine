@@ -11,25 +11,26 @@ body {
 }
 
 .navbar {
+  color: whitesmoke;
   background-color: transparent;
   font-family: "Playfair Display", serif;
 }
 
 #oanell {
-  color: black;
+  color: whitesmoke;
   margin-left: 1.2em;
   margin-top: 0.3em;
   font-size: 2.2em;
 }
 
 .navbar-item {
-  color: black;
+  color: whitesmoke;
   font-size: 1.3em;
   margin-right: 1.5em;
 }
 
 .navbar-item:hover {
-  color: black !important;
+  color: whitesmoke !important;
   background-color: transparent !important;
 }
 
